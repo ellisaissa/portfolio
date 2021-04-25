@@ -1,0 +1,13 @@
+* {
+    color: blanchedalmond;
+}
+header {
+    font-style: italic;
+    font-size: large;
+    color:black;
+}
+.icon-anchor {
+    color:black;
+    font-size:medium;
+    font-style:normal;
+}
