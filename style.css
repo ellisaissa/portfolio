@@ -1,6 +1,7 @@
-/* @keyframes animatedBackground {
+@keyframes animatedBackground {
     from {background-position: 0 0;}
-    to {background-position: 100% 0;} */
+    to {background-position: 100% 0;}
+}
 
 .page-break {
     background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-LOnaIvaE5gGLX867mqfq8uQupXoAAD7eGuBNqYIGGKZ7Zuq7JZlno1ylUc8VZkh4c44&usqp=CAU");
@@ -11,13 +12,13 @@
     width:auto
 }
 
-.stars {
-    background-image: url("https://i.ytimg.com/vi/r1KdYyHlnco/maxresdefault.jpg");
+.train {
+    background-image: url("ezgif.com-gif-maker.gif");
     background-position: 0px 0px;
-    background-repeat: repeat-x;
+    background-repeat: no-repeat;
     animation: animatedBackground 30s linear infinite;
     width: auto;
-    height: 45px;
+    height: 70px;
 }
 
 .nav-link {
@@ -33,7 +34,7 @@
     color: black;
   }
 
-img {
+h3 img {
       border-radius: 50%;
       background-position: center;
       background-color: black;
@@ -60,19 +61,34 @@ p {
       font-size: 30px;
   }
 
-  .row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
+  /* #grad1 {
+    background-image: url("raining.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    color: black;
+    font-size: larger;
+    text-shadow: blanchedalmond;
   }
-  
-  /* Create two equal columns that sits next to each other */
-  .column {
-    flex: 50%;
-    padding: 0 4px;
-  }
-  
-  .img {
-    margin-top: 8px;
-    vertical-align: middle;
-  }
+
+  .container-flex {
+    background:url("rainbow.jpg"), linear-gradient("raining.jpg"), ;
+    background-size:cover;
+    background-repeat: no-repeat; */
+
+    #grad1_image {
+      /* margin:0 auto; */
+      width:100vw;
+      height:100vw;
+      transition: background-image 1s ease-in-out;
+      background-image:url("raining.jpg");
+    }
+    
+    #grad1_image:hover {
+      background-image:url("https://i.pinimg.com/originals/3b/63/48/3b63482726f9d69e48413e2d902eecce.jpg");
+      background-repeat:no-repeat;
+      height: 100vw;
+      width: 100vw;
+      background-color:#3EDAF2 ;
+    }

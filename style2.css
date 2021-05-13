@@ -1,0 +1,58 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
+    flex: 50%;
+    padding: 10px 4px;
+  }
+  
+  .img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+
+  .row {
+    background-color: navy;
+  }
+
+  .h5 {
+    color: black;
+    font-size: larger;
+    text-shadow: blanchedalmond;
+  }
+
+  /* make pictures change */
+  #port_controls {
+    text-align:center;
+  }
+  #port_controls span {
+    padding-right:2em;
+    cursor:pointer;
+  }
+  #portpic {
+    position:relative;
+    height:281px;
+    width:450px;
+    margin:0 auto 10px;
+  }
+  #portpic img {
+    position:absolute;
+    left:0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    opacity:0;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+  }
+  
+  #portpic img.opaque {
+    opacity:1;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=1);
+  }
