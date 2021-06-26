@@ -77,8 +77,8 @@ p {
     background-size:cover;
     background-repeat: no-repeat; */
 
-    #grad1_image {
-      /* margin:0 auto; */
+    /* #grad1_image {
+      margin:0 auto;
       width:100vw;
       height:100vw;
       transition: background-image 1s ease-in-out;
@@ -91,4 +91,4 @@ p {
       height: 100vw;
       width: 100vw;
       background-color:#3EDAF2 ;
-    }
+    } */
